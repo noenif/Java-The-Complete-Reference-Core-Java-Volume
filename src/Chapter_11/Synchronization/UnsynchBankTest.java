@@ -9,7 +9,7 @@ package Chapter_11.Synchronization;
 
              public static void main(String[] args)
              {
-                var bank = new Bank(NACCOUNTS, INITIAL_BALANCE);
+                var bank = new Bank1(NACCOUNTS, INITIAL_BALANCE);
                 for (int i = 0; i < NACCOUNTS; i++)
                 {
                    int fromAccount = i;
