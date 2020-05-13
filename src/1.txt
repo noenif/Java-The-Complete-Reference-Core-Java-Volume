@@ -1,0 +1,59 @@
+Thread[Thread-2,5,main]
+Thread[Thread-6,5,main]
+Thread[Thread-8,5,main]
+Thread[Thread-5,5,main]
+Thread[Thread-4,5,main]
+Thread[Thread-1,5,main]
+Thread[Thread-0,5,main]
+Thread[Thread-3,5,main]
+Thread[Thread-7,5,main]
+Thread[Thread-9,5,main]
+Thread[Thread-2,5,main]
+Thread[Thread-8,5,main]
+Thread[Thread-7,5,main]
+------------------------------------
+
+------------------------------------
+
+------------------------------------
+------------------------------------
+       3.33 from 2 to 2
+
+------------------------------------
+
+------------------------------------
+       6.08 from 0 to 7
+ Total Balance:      90.53
+
+
+------------------------------------
+       3.96 from 7 to 1
+ Total Balance:      90.53
+
+
+------------------------------------
+------------------------------------
+       2.70 from 1 to 0
+ Total Balance:      80.82
+
+ Total Balance:      93.23
+
+       1.78 from 5 to 7
+       4.93 from 8 to 1
+ Total Balance:      87.53
+
+       0.06 from 6 to 6
+
+------------------------------------
+       3.68 from 9 to 7
+ Total Balance:      87.60
+
+ Total Balance:      82.60
+
+       7.29 from 4 to 9
+
+       5.11 from 3 to 1
+ Total Balance:     100.00
+
+ Total Balance:      94.89
+
