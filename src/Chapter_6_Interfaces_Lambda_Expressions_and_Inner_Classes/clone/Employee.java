@@ -5,6 +5,7 @@ import java.util.GregorianCalendar;
 
 //一个类实现Cloneable接口以向该Object.clone()方法指示该方法对该类的实例进行逐域复制是合法的。
 //在没有实现Cloneable接口的实例上调用Object的clone方法会 导致 CloneNotSupportedException引发异常。
+//因为要实现一个类的克隆，他是具体的。
 public class Employee implements Cloneable {
     private String name;
     private double salary;
@@ -16,13 +17,15 @@ public class Employee implements Cloneable {
         hireDay = new Date();
     }
 
+    //在内部实现clone方法
     public Employee clone() throws CloneNotSupportedException {
         // call Object.clone()
         Employee cloned = (Employee) super.clone();
 
         // clone mutable fields
         cloned.hireDay = (Date) hireDay.clone();
-
+        //  返回cloned 对象
+        //要转换哪个对象，就先强制转换。
         return cloned;
     }
 
