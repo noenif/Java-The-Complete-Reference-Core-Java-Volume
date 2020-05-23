@@ -9,6 +9,9 @@ public class Employee implements Comparable<Employee> {
         this.salary = salary;
     }
 
+    public Employee(String amy_lee) {
+    }
+
     public String getName() {
         return name;
     }
